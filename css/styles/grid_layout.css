@@ -1,0 +1,133 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+    grid-template-rows: 5rem 1fr 1rem minmax(5rem, auto);
+    height: 100%;
+    gap: 1rem;
+}
+
+.grid > div{
+    border: 1px solid #ccc;
+}
+
+/* header */
+.grid > div:nth-child(1) {
+    grid-column: 1 / -1;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+/* sidebar1 */
+.grid > div:nth-child(2) {
+    position: sticky;
+    top: 6rem;
+    height: 30rem;
+}
+
+.grid > div:nth-child(3) {
+    /* overflow: auto; */
+}
+
+/* sidebar2 */
+.grid > div:nth-child(4) {
+    position: sticky;
+    top: 6rem;
+    height: 30rem;
+}
+
+/* empty div*/
+.grid > div:nth-child(5) {
+    grid-column: 1 / -1;
+}
+
+/* footer */
+.grid > div:nth-child(6) {
+    grid-column: 1 / -1;
+}
+
+.flex {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex > li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.flex > li:nth-child(1) {
+    flex-grow: 1;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 14.25rem);
+    grid-template-rows: repeat(3, 13.625rem);
+    height: 100%;
+    /* align-items: center; */
+    margin-left: 1rem;
+}
+
+.content-grid > div {
+    border: 1px solid #ccc;
+}
+
+.content-grid > div > a > img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-grid > a {
+    cursor: pointer;
+    display: block;
+}
+
+.content-grid > div:hover {
+    border: 1px solid blue;
+
+    .banner {
+        width: 120px;
+        height: 40px;
+        background-position: -556px -236px; 
+    }
+}
+
+
+.content-grid > div > a > strong {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.content-grid > div:nth-child(1) {
+    grid-row: 1 / 2;
+}
+
+.content-grid > div > a > div {
+    display: none;
+}
+
+.banner {
+    background-image: url(	https://img1a.coupangcdn.com/image/coupang/main/bg_main_sprite_180103.png);
+    background-position: -515px -236px;
+}

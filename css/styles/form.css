@@ -1,0 +1,73 @@
+div {
+    background-color: #ff0;
+}
+
+.box {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fff;
+}
+
+.container {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fc6d6d;
+}
+
+p {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #6060ff;
+}
+
+/* 모든 자식 */
+/* body div {
+    background-color: #000;
+    color: #f00;
+} */
+
+/* 내 자식 */
+/* body > div {
+    color: #f00;
+    border: 1rem solid #f00;
+} */
+
+/* div[class="box container"] {
+    border: 2rem dashed #00f;
+} */
+
+body > div[class="box container"] {
+    border: 3rem dotted #0f0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.under-line {
+    text-decoration: underline;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #aaa;
+}
+
+.h-margin-16 {
+    margin: 1rem 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.w-half {
+    width: 49%;
+}

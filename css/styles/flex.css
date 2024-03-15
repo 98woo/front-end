@@ -1,0 +1,132 @@
+h3 {
+    margin: 2rem 0 0 0;
+}
+
+.flex-row {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-row li {
+    list-style-type: none;
+}
+
+.container div {
+    background-color: #fcad64;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.container {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+}
+
+.inline-container {
+    background-color: #CCC;
+    padding: 1rem;
+}
+
+.inline-container div{
+    background-color: #fcad64;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+}
+
+.inline-flex-container {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+}
+
+.inline-flex-container div {
+    background-color: #fcad64;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.reverse-container div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.reverse-container {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column-container div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.column-container {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.column-reverse-container div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.column-reverse-container {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-nowrap div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.container-nowrap {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    width: 10rem;
+    /* flex-direction: column-reverse; */
+}
+
+.container-wrap div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.container-wrap {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10rem;
+    /* flex-direction: ; */
+}
+
+.container-wrap-reverse div {
+    margin: 1rem;
+    background-color: #fcad64;
+    padding: 1rem;
+}
+
+.container-wrap-reverse {
+    background-color: #CCC;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 10rem;
+    /* flex-direction: ; */
+}

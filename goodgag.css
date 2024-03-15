@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(140, 140, 140);
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    background-color: white;
+    margin: 0 auto;
+    height: 100%;
+    width: 55vw;
+}
+
+.header {
+    background-color: yellow;
+    position: fixed;
+    width: 55vw;
+    z-index: 2;
+}

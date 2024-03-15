@@ -1,0 +1,25 @@
+.empty-div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+}
+
+/* float-exam 하위의 모든 자손 */
+.float-exam .empty-div {
+    float: right;
+    margin: 10px;
+}
+
+/* float-exam 하위의 직속 자손
+.float-exam > .empty-div {
+
+} */
+
+.float-exam .empty-div:nth-child(2) {
+    float: left;
+}
+
+.clear-line {
+    clear: both;
+}

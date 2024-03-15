@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter01 HTML OverWrite</title>
+    <!-- 상대경로 -->
+    <link rel="stylesheet" href="./styles/mystyle.css">
+    <!-- 
+        상대 경로에서 ./ 의 의미 : 현재 폴더
+        상대 경로에서 ../ 의 의미 : 상위 폴더 
+    -->
+
+    <!-- 절대경로 -->
+
+    <style>
+        p {
+            /* 글자의 크기를 100px로 변경한다. (기본은 16px) */
+            font-size: 100px;
+        }
+
+        body {
+            /* 나중에 작성도니 것이 적용된다. */
+            /* 나중과 현재의 기준 -> 스타일이 적용된 순서. (코드의 흐름) */
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+</body>
+</html>
