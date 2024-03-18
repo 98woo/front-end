@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="javascript jar파일 모음">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/javascript jar파일 모음/jakarta.servlet.jsp.jstl-api-3.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javascript jar파일 모음/jakarta.servlet.jsp-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javascript jar파일 모음/jakarta.el-api-5.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javascript jar파일 모음/jakarta.servlet-api-6.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javascript jar파일 모음/jakarta.servlet.jsp.jstl-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
